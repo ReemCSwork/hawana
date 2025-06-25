@@ -1,38 +1,153 @@
+/* App.css */
+
+/* عام */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
 .App {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* الألوان للوضع الفاتح */
+.App.light {
+  background-color: #bcb19a;
+  color: #011d34;
+}
+
+.main-title {
   text-align: center;
+  font-size: 2.8rem;
+  color: #0c6c4f;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sub-text {
+  text-align: center;
+  font-size: 1rem;
+  color: #011d34;
+  margin-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  background-color: #0b4d39;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 30px 0;
+  box-shadow: 0 4px 12px rgba(115, 31, 31, 0.08);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  border-left: 8px solid #913636;
+  color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card:hover {
+  transform: translateY(-3px);
 }
 
-.App-link {
-  color: #61dafb;
+.card h2 {
+  margin: 0 0 12px;
+  font-size: 1.6rem;
+  color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aqi-label {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.radiation-label {
+  margin-top: 10px;
+  font-style: italic;
+  color: #b39541;
+}
+
+.timestamp {
+  margin-top: 15px;
+  font-size: 0.85rem;
+  color: #ffffff;
+}
+
+.error-text {
+  color: #e74c3c;
+}
+
+/* أزرار */
+.mode-toggle,
+.refresh-button {
+  display: block;
+  margin: 20px auto 40px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0b4d39;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mode-toggle:hover,
+.refresh-button:hover {
+  background-color: #144e32;
+}
+
+.refresh-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* الألوان للوضع الداكن */
+.App.dark {
+  background-color: #121212;
+  color: #ddd;
+}
+
+.App.dark .main-title {
+  color: #66bb6a;
+}
+
+.App.dark .sub-text {
+  color: #bbb;
+}
+
+.App.dark .card {
+  background-color: #1f2a27;
+  border-left-color: #4caf50; /* لون أخضر معتدل */
+  color: #eee;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.App.dark .card h2 {
+  color: #a5d6a7;
+}
+
+.App.dark .aqi-label {
+  font-weight: 600;
+}
+
+.App.dark .radiation-label {
+  color: #c5b358;
+}
+
+.App.dark .timestamp {
+  color: #999;
+}
+
+.App.dark .error-text {
+  color: #ef5350;
+}
+
+.App.dark .mode-toggle,
+.App.dark .refresh-button {
+  background-color: #2e7d32;
+  color: #e0e0e0;
+}
+
+.App.dark .mode-toggle:hover,
+.App.dark .refresh-button:hover {
+  background-color: #1b5e20;
 }
