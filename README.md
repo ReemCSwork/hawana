@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+🌎 Hawa'na
+Hawa'na is a real-time environmental dashboard that displays Air Quality Index (AQI) and Gamma Radiation levels for selected cities around the world. Built with React and powered by public APIs, the project aims to raise awareness about pollution and radiation exposure in urban environments.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Features
+- Live air quality readings (AQI, PM2.5, PM10)
+- Real-time gamma radiation levels (µSv/h)
+- Smart fallback to cached radiation data when live data is unavailable
+- Expected radiation level indicators
+- Dark & Light mode toggle
+- Mobile-friendly responsive design
 
-## Available Scripts
+🗺️ Monitored Cities
+- Chernobyl
+- Jeddah
+- Reykjavik
+- Lahore
+- Rome
 
-In the project directory, you can run:
+🛠️ Tech Stack
+| Technology | Purpose | 
+| React.js | Frontend framework | 
+| Axios | API requests | 
+| OpenWeather API | Air quality data | 
+| Safecast API | Radiation data | 
+| GitHub Pages | Hosting | 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🚀 Getting Started
+To run the project locally:
+# Clone the repository
+git clone https://github.com/ReemCSwork/hawa-na.git
 
-### `npm test`
+# Navigate to the project directory
+cd hawa-na
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Install dependencies
+npm install
 
-### `npm run build`
+# Create a .env file and add your OpenWeather API key
+REACT_APP_AQI_KEY=your_api_key_here
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Start the development server
+npm start
+Perfect! Since your screenshots are stored in a folder named assets, here’s your fully updated and professional README file with the correct image paths:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🌎 Hawa'na
+Hawa'na is a real-time environmental dashboard that displays Air Quality Index (AQI) and Gamma Radiation levels for selected cities around the world. Built with React and powered by public APIs, the project aims to raise awareness about pollution and radiation exposure in urban environments.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✨ Features
+- Live air quality readings (AQI, PM2.5, PM10)
+- Real-time gamma radiation levels (µSv/h)
+- Smart fallback to cached radiation data when live data is unavailable
+- Expected radiation level indicators
+- Dark & Light mode toggle
+- Mobile-friendly responsive design
 
-### `npm run eject`
+🗺️ Monitored Cities
+- Chernobyl
+- Jeddah
+- Reykjavik
+- Lahore
+- Rome
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠️ Tech Stack
+| Technology | Purpose | 
+| React.js | Frontend framework | 
+| Axios | API requests | 
+| OpenWeather API | Air quality data | 
+| Safecast API | Radiation data | 
+| GitHub Pages | Hosting | 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🚀 Getting Started
+To run the project locally:
+# Clone the repository
+git clone https://github.com/ReemCSwork/hawa-na.git
 
-## Learn More
+# Navigate to the project directory
+cd hawa-na
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Create a .env file and add your OpenWeather API key
+REACT_APP_AQI_KEY=your_api_key_here
 
-### Code Splitting
+# Start the development server
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📸 Screenshots
 
-### Making a Progressive Web App
+### 🌙 Dark Mode  
+![Dark Mode](./assets/hawana-dark.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### ☀️ Light Mode  
+![Light Mode](./assets/hawana-light.png)
 
-### Advanced Configuration
+> Ensure the images are saved in the `assets` folder in your project root.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+🔗 Live Demo
+👉 View the live project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🤝 Contributing
+Contributions are welcome! If you have suggestions for improvements or find a bug, feel free to open an issue or submit a pull request.
 
-### `npm run build` fails to minify
+📄 License
+Licensed under the MIT License — free to use, modify, and distribute.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by Reem
+
+
+

@@ -10,6 +10,7 @@ const cities = [
   { name: 'Jeddah', lat: 21.5433, lon: 39.1728 },
 ];
 
+
 const getAQILabel = (aqi) => {
   switch (aqi) {
     case 1: return 'Good 🟢';
