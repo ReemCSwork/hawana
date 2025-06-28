@@ -1,6 +1,5 @@
 {
-  "name": "hawana", "homepage": "https://ReemCSwork.github.io/hawana",
-
+  "name": "hawana",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,12 +14,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
-
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
